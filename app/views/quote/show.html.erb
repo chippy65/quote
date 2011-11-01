@@ -1,0 +1,6 @@
+<h1>Stock Quotation Last Price</h1>
+<%= form_tag ({:action => 'showQuote'}) %>
+<label>Enter Ticker Symbol </label>
+<%= text_field 'symbol', 'ticker' %>
+<%= submit_tag "Get Quote" %>
+<% form_tag %>
